@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+    <div id="app">
+        <span id="contentCitation">
+          <p id="citation">{{citation}}</p>
+        </span>
+        <span id="contentAuteur">
+          <p id="citation">{{auteur}}</p>
+        </span>
+        <div id="contentButton">
+          <button  id="generate" @click="generate">Générer</button>
+        </div>
+       
+    </div>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="philos.js"></script>
+</body>
+</html>
