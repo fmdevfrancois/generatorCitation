@@ -22,12 +22,10 @@ var app = new Vue ({
     methods:{
       generate:function (){
         let num =   Math.floor(Math.random() * (citations.length - 0)) + 0;
-     console.log(num);
       this.citation = citations[num].citation;
       this.auteur = citations[num].auteur;
       },
      created:function(){
-        console.log("ici");
         let num =   Math.floor(Math.random() * (citations.length - 0)) + 0;
         console.log(num);
          this.citation = citations[num].citation;
